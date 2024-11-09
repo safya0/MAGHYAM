@@ -1,0 +1,26 @@
+﻿<Window x:Class="YourNamespace.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Quiz Application" Height="500" Width="400">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel>
+            <!-- السؤال الأول -->
+            <TextBlock Text="1. What does the acronym 'OOP' stand for in programming?" Margin="10"/>
+            <RadioButton Content="A. Object-Oriented Programming" Margin="10,0,10,5"/>
+            <RadioButton Content="B. Operator-Oriented Programming" Margin="10,0,10,5"/>
+            <RadioButton Content="C. Object-Operational Process" Margin="10,0,10,5"/>
+            <RadioButton Content="D. Optimized Object Programming" Margin="10,0,10,15"/>
+
+            <!-- السؤال الثاني -->
+            <TextBlock Text="2. Which OOP principle allows a class to inherit properties and behaviors from another class?" Margin="10"/>
+            <RadioButton Content="A. Polymorphism" Margin="10,0,10,5"/>
+            <RadioButton Content="B. Inheritance" Margin="10,0,10,5"/>
+            <RadioButton Content="C. Abstraction" Margin="10,0,10,5"/>
+            <RadioButton Content="D. Encapsulation" Margin="10,0,10,15"/>
+
+            <!-- ضيفي الأسئلة الأخرى بنفس الطريقة -->
+        </StackPanel>
+    </ScrollViewer>
+
+</Window>
